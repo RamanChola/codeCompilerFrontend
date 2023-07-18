@@ -56,7 +56,9 @@ export default function SignIn() {
       password: values.password,
     });
     if (res.ok) {
-      setError(true);
+      setError(false);
+    } else {
+      setError(true)
     }
   };
   const initialValues = {
