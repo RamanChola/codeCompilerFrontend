@@ -6,7 +6,7 @@ const nextConfig = {
     appDir: true,
   },
   env: {
-    BACKEND_URL: "http://44.202.51.43:5000",
+    BACKEND_URL: "https://codecompiler.me",
   },
 };
 
